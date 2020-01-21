@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <sightings-form />
-    <sightings-grid :sightings="sightings" />
+    <sightings-grid />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   components: {
     'sightings-form': SightingsForm,
     'sightings-grid': SightingsGrid
-  },
+  }
 
 }
 </script>
